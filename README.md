@@ -23,7 +23,7 @@ para estudar aplicações de IA, automações e agentes.
 
 ## Como usar este material
 
-Leia o [livro em HTML](docs/python-notes.html) e acompanhe os exemplos deste
+Consulte o [material do curso](https://www.alexsander.app.br/curso-python) e acompanhe os exemplos deste
 repositório. Os capítulos com exemplos executáveis têm arquivos `.py` organizados
 por etapa; a tabela abaixo indica quais capítulos possuem esses arquivos.
 Os projetos integradores têm suas próprias pastas e instruções.
@@ -154,7 +154,7 @@ uv run pytest intermediario/cap40_pytest.py
 ## Convenções
 
 - Um arquivo por capítulo, nomeado `capNN_assunto.py`.
-- Os comentários `# === Seção ===` repetem os títulos do livro.
+- Os comentários `# === Seção ===` repetem os títulos das seções do curso.
 - Exemplos de configuração (`pyproject.toml`, CI) e a API completa ficam em `exemplos/`.
 - Os três projetos integradores ficam em `projetos/`, cada um com os seus próprios testes.
 
