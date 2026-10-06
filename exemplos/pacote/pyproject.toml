@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "calc-notes"
 version = "0.1.0"
-description = "Calculadora de exemplo do livro Python Notes"
+description = "Calculadora de exemplo do livro Python na Prática"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []

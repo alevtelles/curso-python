@@ -1,4 +1,4 @@
-"""Pacote de exemplo do livro Python Notes."""
+"""Pacote de exemplo do livro Python na Prática."""
 
 from importlib.metadata import PackageNotFoundError, version
 

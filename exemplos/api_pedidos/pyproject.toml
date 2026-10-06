@@ -5,7 +5,7 @@ build-backend = "hatchling.build"
 [project]
 name = "api-pedidos"
 version = "0.1.0"
-description = "API de pedidos do livro Python Notes"
+description = "API de pedidos do livro Python na Prática"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

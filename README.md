@@ -1,10 +1,32 @@
-# Python Notes: código dos capítulos
+# Python na Prática
 
-<img src="./curso.png" alt="Curso Python Notes" width="100%">
+**Do primeiro script à API em produção.**
 
-Repositório de código do livro **Python Notes** (básico, intermediário e avançado).
-Cada capítulo tem um arquivo `.py` executável, na mesma ordem em que o código aparece no livro.
-O livro em HTML está em `docs/python-notes.html`.
+<img src="./curso.png" alt="Curso Python na Prática: do primeiro script à API em produção" width="100%">
+
+Curso com 65 capítulos que reúne fundamentos, programação orientada a objetos,
+recursos avançados e desenvolvimento backend. O percurso combina explicações,
+exemplos de código e projetos para aplicar o que você aprende.
+
+Você começa pela preparação do ambiente e avança até APIs com FastAPI,
+PostgreSQL, testes, Docker e observabilidade. Essa base também prepara você
+para estudar aplicações de IA, automações e agentes.
+
+## O que você vai aprender
+
+- **Ambiente:** instalar o Python, gerenciar versões e dependências e organizar projetos.
+- **Básico:** trabalhar com variáveis, coleções, funções, arquivos e exceções.
+- **Intermediário:** modelar objetos, usar tipagem, testar código e criar ferramentas de linha de comando.
+- **Avançado:** explorar protocolos, concorrência, asyncio, desempenho e arquitetura.
+- **Backend:** construir e testar APIs, persistir dados e preparar aplicações para produção.
+- **Projetos:** desenvolver um gerenciador de despesas, uma CLI de tarefas e um processador concorrente de dados.
+
+## Como usar este material
+
+Leia o [livro em HTML](docs/python-notes.html) e acompanhe os exemplos deste
+repositório. Os capítulos com exemplos executáveis têm arquivos `.py` organizados
+por etapa; a tabela abaixo indica quais capítulos possuem esses arquivos.
+Os projetos integradores têm suas próprias pastas e instruções.
 
 ## Requisitos
 

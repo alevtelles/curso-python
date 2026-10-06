@@ -1,7 +1,7 @@
 [project]
 name = "python-notes"
 version = "0.1.0"
-description = "Código dos capítulos do livro Python Notes"
+description = "Código dos capítulos do livro Python na Prática"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = []

@@ -1,1 +1,1 @@
-"""API de pedidos do livro Python Notes."""
+"""API de pedidos do livro Python na Prática."""

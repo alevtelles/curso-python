@@ -50,7 +50,7 @@ def listar(minimo_paginas: Annotated[int, Query(ge=0)] = 0) -> list[Livro]:
 # === Testar sem subir servidor ===
 
 cliente = TestClient(app)
-print(cliente.post("/livros", json={"titulo": "Python Notes", "paginas": 500}).json())
+print(cliente.post("/livros", json={"titulo": "Python na Prática", "paginas": 500}).json())
 print(cliente.get("/livros/1").status_code)
 nao_existe = cliente.get("/livros/9")
 print(nao_existe.status_code, nao_existe.json())
