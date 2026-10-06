@@ -2,7 +2,7 @@
 
 <img src="./curso.png" alt="Curso Python Notes" width="100%">
 
-Repositório de código do livro **Python Notes** (júnior, intermediário e avançado).
+Repositório de código do livro **Python Notes** (básico, intermediário e avançado).
 Cada capítulo tem um arquivo `.py` executável, na mesma ordem em que o código aparece no livro.
 O livro em HTML está em `docs/python-notes.html`.
 
@@ -51,7 +51,7 @@ uv run pytest intermediario/cap40_pytest.py
 | 6 | Poetry: projetos, dependências e lockfile | `ambiente/cap06_poetry.py` |
 | 7 | uv: o gerenciador unificado | (sem arquivo .py) |
 | 8 | Qual ferramenta escolher, editor e estrutura de projeto | `ambiente/cap08_estrutura_projeto.py` |
-### Júnior
+### Básico
 
 | Cap. | Capítulo | Arquivo |
 |---|---|---|
@@ -125,7 +125,7 @@ uv run pytest intermediario/cap40_pytest.py
 
 | Cap. | Capítulo | Arquivo |
 |---|---|---|
-| 63 | Projeto Júnior: gerenciador de despesas | (sem arquivo .py) |
+| 63 | Projeto Básico: gerenciador de despesas | (sem arquivo .py) |
 | 64 | Projeto Intermediário: CLI de tarefas | (sem arquivo .py) |
 | 65 | Projeto Avançado: processador concorrente de dados | (sem arquivo .py) |
 
