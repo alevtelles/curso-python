@@ -23,7 +23,7 @@ para estudar aplicações de IA, automações e agentes.
 
 ## Como usar este material
 
-Consulte o [material do curso](https://www.alexsander.app.br/curso-python) e acompanhe os exemplos deste
+Acesse o [conteúdo do curso no site](https://www.alexsander.app.br/curso-python) e acompanhe os exemplos deste
 repositório. Os capítulos com exemplos executáveis têm arquivos `.py` organizados
 por etapa; a tabela abaixo indica quais capítulos possuem esses arquivos.
 Os projetos integradores têm suas próprias pastas e instruções.
@@ -40,13 +40,13 @@ Os projetos integradores têm suas próprias pastas e instruções.
 Cada arquivo roda sozinho, a partir da raiz do repositório:
 
 ```bash
-python3 junior/cap09_variaveis.py
+python3 basico/cap09_variaveis.py
 ```
 
 No Windows, use `py` no lugar de `python3`. Com uv, sem instalar nada antes:
 
 ```bash
-uv run junior/cap09_variaveis.py
+uv run basico/cap09_variaveis.py
 ```
 
 Alguns capítulos pedem dados no teclado (`input()`), criam arquivos temporários na pasta atual
@@ -77,23 +77,23 @@ uv run pytest intermediario/cap40_pytest.py
 
 | Cap. | Capítulo | Arquivo |
 |---|---|---|
-| 9 | Comentários e variáveis | `junior/cap09_variaveis.py` |
-| 10 | Tipos de dados | `junior/cap10_tipos.py` |
-| 11 | Strings | `junior/cap11_strings.py` |
-| 12 | Conversão de tipos e valores falsy | `junior/cap12_conversao_falsy.py` |
-| 13 | Entrada, saída e operadores | `junior/cap13_entrada_operadores.py` |
-| 14 | Condicionais | `junior/cap14_condicionais.py` |
-| 15 | Laços com for | `junior/cap15_laco_for.py` |
-| 16 | Laços com while | `junior/cap16_laco_while.py` |
-| 17 | Funções | `junior/cap17_funcoes.py` |
-| 18 | Escopo e armadilhas das funções | `junior/cap18_escopo.py` |
-| 19 | Listas | `junior/cap19_listas.py` |
-| 20 | Tuplas e conjuntos | `junior/cap20_tuplas_conjuntos.py` |
-| 21 | Dicionários | `junior/cap21_dicionarios.py` |
-| 22 | Mutabilidade e identidade | `junior/cap22_mutabilidade.py` |
-| 23 | Exceções | `junior/cap23_excecoes.py` |
-| 24 | Arquivos e pathlib | `junior/cap24_arquivos.py` |
-| 25 | Módulos e importação | `junior/cap25_modulos.py` |
+| 9 | Comentários e variáveis | `basico/cap09_variaveis.py` |
+| 10 | Tipos de dados | `basico/cap10_tipos.py` |
+| 11 | Strings | `basico/cap11_strings.py` |
+| 12 | Conversão de tipos e valores falsy | `basico/cap12_conversao_falsy.py` |
+| 13 | Entrada, saída e operadores | `basico/cap13_entrada_operadores.py` |
+| 14 | Condicionais | `basico/cap14_condicionais.py` |
+| 15 | Laços com for | `basico/cap15_laco_for.py` |
+| 16 | Laços com while | `basico/cap16_laco_while.py` |
+| 17 | Funções | `basico/cap17_funcoes.py` |
+| 18 | Escopo e armadilhas das funções | `basico/cap18_escopo.py` |
+| 19 | Listas | `basico/cap19_listas.py` |
+| 20 | Tuplas e conjuntos | `basico/cap20_tuplas_conjuntos.py` |
+| 21 | Dicionários | `basico/cap21_dicionarios.py` |
+| 22 | Mutabilidade e identidade | `basico/cap22_mutabilidade.py` |
+| 23 | Exceções | `basico/cap23_excecoes.py` |
+| 24 | Arquivos e pathlib | `basico/cap24_arquivos.py` |
+| 25 | Módulos e importação | `basico/cap25_modulos.py` |
 ### Intermediário
 
 | Cap. | Capítulo | Arquivo |
