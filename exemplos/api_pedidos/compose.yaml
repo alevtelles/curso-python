@@ -1,0 +1,40 @@
+services:
+  banco:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: app
+      POSTGRES_PASSWORD: app
+      POSTGRES_DB: pedidos
+    volumes:
+      - dados_pg:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U app -d pedidos"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  migracao:
+    build: .
+    command: ["alembic", "upgrade", "head"]
+    environment:
+      API_AMBIENTE: prod
+      API_DATABASE_URL: postgresql+psycopg://app:app@banco:5432/pedidos
+    depends_on:
+      banco:
+        condition: service_healthy
+
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      API_AMBIENTE: prod
+      API_DATABASE_URL: postgresql+psycopg://app:app@banco:5432/pedidos
+    depends_on:
+      banco:
+        condition: service_healthy
+      migracao:
+        condition: service_completed_successfully
+
+volumes:
+  dados_pg:
